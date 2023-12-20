@@ -1,0 +1,79 @@
+
+
+{
+    "data":[{
+        "id":1,
+        "product":"product1",
+        "name":"Shirt",
+        "img":"https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/m/j/i/42-pcsfsslfu29887-peter-england-original-imagqakg4uzjnfn5.jpeg?q=70",
+        "price":1000,
+        "size":"L"
+    
+    },
+    {   
+        "id":2,
+        "product":"product2",
+        "name":"T-shirt",
+        "img":"https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/7/z/n/xxl-lf5465denim-blue-duke-original-imaggd5zzjrxyawz.jpeg?q=70",
+        "price":600,
+        "size":"M"
+    },
+    {   
+        "id":3,
+        "product":"product3",
+        "name":"Full Hand Shirt",
+        "img":"https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/o/p/3/42-pcsfsslpg55135-peter-england-original-imagqakhzqc4trbw.jpeg?q=70",
+        "price":1200,
+        "size":"M"
+    },
+    {   
+        "id":4,
+        "product":"product4",
+        "name":"Midi",
+        "img":"https://rukminim2.flixcart.com/image/832/832/xif0q/kids-dress/n/u/v/9-10-years-m-c-midi-navyheart-miss-chief-original-imagmfqkmuj8gzdt.jpeg?q=70",
+        "price":1500,
+        "size":"S"
+    },
+    {
+        "id":5,
+        "product":"product5",
+        "name":"Casual Shirt",
+        "img":"https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/5/o/d/9-10-years-mdrskds-aidan-paul-original-imagqjhvzrzwyyf3.jpeg?q=70",
+        "price":700,
+        "size":"S"
+    },
+    {
+        "id":6,
+        "product":"product6",
+        "name":"Saree",
+        "img":"https://rukminim2.flixcart.com/image/832/832/xif0q/sari/w/y/u/free-sd-590-aadvika-unstitched-original-imagua4gehdcb4en.jpeg?q=70",
+        "price":3000,
+        "size":"M"
+    },
+    {
+        "id":7,
+        "product":"product7",
+        "name":"Kurta",
+        "img":"https://rukminim2.flixcart.com/image/832/832/xif0q/top/i/b/6/xxl-1-sc-503-tanmay-art-original-imagrckuuw3fgggb.jpeg?q=70",
+        "price":2000,
+        "size":"L"
+    },
+    {
+        "id":8,
+        "product":"product8",
+        "name":"Silk Saree",
+        "img":"https://rukminim2.flixcart.com/image/832/832/keokpe80-0/sari/i/f/1/free-kavira-001-xenilla-unstitched-original-imafvb7kucygehcc.jpeg?q=70",
+        "price":4000,
+        "size":"L"
+    },
+    {
+        "id":9,
+        "product":"product9",
+        "name":"Casual dress",
+        "img":"https://rukminim2.flixcart.com/image/832/832/ku04o7k0/kids-apparel-combo/8/8/k/9-10-years-polka-print-kid-3-piece-set-perfectpivot-original-imag785zvmyhg9m7.jpeg?q=70",
+        "price":1000,
+        "size":"S"
+    }
+    
+]
+}
