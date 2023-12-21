@@ -58,6 +58,28 @@
   display: flex;
 }
 .addedimg{
-  height: 400px;
+  height: 350px;
   width: 300px;
+}
+.itemscart{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+.itemscartdiv{
+  display: flex;
+}
+.delete{
+  margin-left: 50px;
+  background-color: red;
+  border: none;
+  color: white;
+  height: 20px;
+  cursor: pointer;
+}
+.butt{
+  height: 20px;
+  width: 40px;
+  border: none;
+  cursor: pointer;
 }

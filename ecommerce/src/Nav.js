@@ -9,8 +9,7 @@ console.log(addto2)
         <div className='navbar'>
             {/* <img className='githublogo' src='./github.png'/> */}
             <div className='addplus'>{addto2}</div>
-            <span><Link to='/Cart'><button className='cartlogo'>Carts Button</button></Link></span>
-            
+            <span><Link to='/Cart'><button className='cartlogo'>Carts Button</button></Link></span>   
         </div>
     )
 }
