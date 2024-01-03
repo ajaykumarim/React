@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+.navdiv{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(223, 46, 56);
+}
+.logo{
+    font-family: Rubik Doodle Shadow;
+    
+}

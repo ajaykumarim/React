@@ -9,7 +9,6 @@ export const Home = ({value1,passthis1}) => {
         fina1(ini1+arg1)
         // fina1([...ini1,arg1])
         fina([...ini,arg])
-        
      }
      console.log(ini1)
      passthis1(ini,ini1)
