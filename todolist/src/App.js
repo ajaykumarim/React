@@ -23,7 +23,7 @@ function App() {
         const users=JSON.parse(localStorage.getItem('users'))
         const reqName=name
         localStorage.setItem('Home',reqName)
-        users.some(a=>a.username==name)&&users.some(a=>a.password==pass)?navigate('/Tasks'): alert("Enter a valid username and password")
+        users.some(a=>a.username==name&&a.password==pass)?navigate('/Tasks'): alert("Enter a valid username and password")
         setName('')
         setPass('')  
     }

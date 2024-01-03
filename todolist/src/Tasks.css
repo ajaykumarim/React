@@ -1,0 +1,18 @@
+.addButton{
+    height: 35px;
+    border: none;
+    background-color: rgb(106, 14, 192);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+.inputBar1{
+    background-color: white;
+    /* border-radius: 50px; */
+    border: none;
+    height: 33px;
+    width: 300px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.inputBar1:focus{
+    outline: none;
+}
