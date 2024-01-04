@@ -16,3 +16,39 @@
 .inputBar1:focus{
     outline: none;
 }
+.reset{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(106, 14, 192);
+}
+.list{
+    height: 40px;
+    font-size: 20px;
+}
+.lists{
+    /* display: flex; */
+    /* justify-content: space-between;
+    flex-direction: column; */
+    border: 2px solid black;
+    /* width: 1000px; */
+    /* background-color: rgb(213, 240, 193); */
+}
+.box{
+    /* padding: 100px; */
+    background-color: brown;
+
+}
+.con{
+    display: flex;
+    justify-content: space-between;
+}
+.listtick{
+    display: flex;
+}
+.deleteButton{
+    background-color: rgba(255, 39, 39, 0.735);
+    border: none;
+}
+.editButton{
+    background-color: ;
+}

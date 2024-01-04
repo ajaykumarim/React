@@ -1,6 +1,6 @@
 .container{
     text-align: center;
-    background-color: blueviolet;
+    background-color: rgb(249, 247, 201);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -26,8 +26,12 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-size: 13px;
     cursor: pointer;
+    border: none;
 }
+
 .exitButton{
     width: 60px;
     height: 30px;
+    color:rgb(128, 188, 189);
+    
 }

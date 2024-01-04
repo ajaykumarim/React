@@ -6,7 +6,7 @@ const Login = ({name,pass,onChangeFunction1,onChangeFunction2,loginFunction}) =>
 
   return (
     <div>
-        <h1>Login</h1>
+        <h1 style={{color:'rgb(128, 188, 189)'}}>Login</h1>
         <form onSubmit={(e)=>loginFunction(e,navigate)}>
             <input onChange={(e)=>onChangeFunction1(e)}  className='inputBar' placeholder='Enter Username' value={name}/><br></br>
             <input onChange={(e)=>onChangeFunction2(e)} className='inputBar' placeholder='Enter Password' value={pass}/><br></br>
