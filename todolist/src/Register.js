@@ -35,16 +35,14 @@ const Register = () => {
         console.log('hi')
     },[obj])
   return (
-    <div className='container'>
-        
-        <h1 style={{color:'rgb(128, 188, 189)'}}>Register</h1>
+    <div className='loginBody'>
+        <h1 className='registerTitle'>Register</h1>
         <form onSubmit={RegisterFunction}>
             <input className='inputBar' onChange={(e)=>setObj({...obj,username:e.target.value})} value={obj.username} placeholder='UserName' type='text'/><br></br>
             <input className='inputBar' onChange={(e)=>setObj({...obj,password:e.target.value})} value={obj.password} placeholder='Password' type='password'/><br></br>
             <button className='regButton'>Register</button>
         </form>
         <p className='exitButton'><Link to='/' >Exit</Link></p>
-        
     </div>
   )
 }

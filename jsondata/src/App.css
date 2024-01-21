@@ -1,0 +1,9 @@
+th,td,table{
+  border: 2px solid black;
+}
+.non-empty{
+  background-color: red;
+}
+.empty{
+  background-color: aqua;
+}

@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.container{
+  background-image: linear-gradient(rgb(176, 222, 255),rgb(0, 149, 255)); 
+  height: 100vh;
+  overflow: auto;
+}

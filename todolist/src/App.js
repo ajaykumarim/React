@@ -6,6 +6,7 @@ import Register from './Register';
 import Login from './Login';
 import Tasks from './Tasks';
 import React, { useState } from 'react'
+import Profile from './Profile';
 
 function App() {
   // Login
@@ -20,7 +21,7 @@ function App() {
     }
     const loginFunction=(e,navigate)=>{
         e.preventDefault()
-        const users=JSON.parse(localStorage.getItem('users'))
+        const users=JSON.parse(localStorage.getItem('users'))||[]
         const reqName=name
         localStorage.setItem('Home',reqName)
         users.some(a=>a.username==name&&a.password==pass)?navigate('/Tasks'): alert("Enter a valid username and password")
@@ -37,6 +38,7 @@ function App() {
           <Route path= '/' element={<Login name={name} pass={pass} onChangeFunction1={onChangeFunction1} onChangeFunction2={onChangeFunction2} loginFunction={loginFunction}/>}/>
           <Route path= '/Register' element={<Register/>}/>
           <Route path= '/Tasks' element={<Tasks/>}/>
+          <Route path= '/Profile' element={<Profile/>}/>
       </Routes>
       </BrowserRouter>
     </div>

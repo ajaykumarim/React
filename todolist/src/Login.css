@@ -1,0 +1,29 @@
+.inputBar{
+    height: 50px;
+    width: 400px;
+    border: 1px solid rgb(190, 190, 190);
+    margin-right: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.loginBody{
+    width: 30%;
+    margin:120px auto auto auto;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: auto;
+    text-align: center;
+}
+.loginTitle{
+    text-align: center;
+    font-size: 50px;
+}
+.regButton{
+    height: 50px;
+    width: 400px;
+    border: 1px solid rgb(190, 190, 190);
+    margin-right: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

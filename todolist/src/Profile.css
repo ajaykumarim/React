@@ -1,0 +1,11 @@
+.profileDiv{
+    width: 43%;
+    margin:250px auto auto auto;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: auto;
+    text-align: center;
+}
+.label{
+    font-size: 30px;
+}

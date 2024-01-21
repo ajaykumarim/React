@@ -1,0 +1,27 @@
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 50px;
+    width: 20px;
+    margin-left: 21px;
+    margin-top: 0%;
+    color: rgb(255, 255, 255);
+}
+.bod{
+    background-color: rgb(0, 0, 0);
+    width: 80px;
+    color: rgb(0, 0, 0);
+    margin-top: -22.7px;
+    border-radius: 20px 20px 0px 0px;
+}
+.border{
+    background-color: white;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 8px;
+}

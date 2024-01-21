@@ -1,0 +1,65 @@
+.image{
+  height: 300px;
+  width: 300px;
+}
+.productDiv{
+  border: 1px solid rgba(255, 255, 255, 0.347);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 30px;
+}
+.block{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+.imagediv{
+  text-align: center;
+}
+.category{
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(227, 140, 140);
+}
+.header{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(227, 140, 140);
+  margin-bottom: 50px;
+  color: white;
+}
+.ratcol{
+  color: rgb(255, 255, 0);
+  font-size: 20px;
+}
+.rat{
+  color: rgb(168, 168, 168);
+  font-size: 20px;
+}
+.details{
+  border-top: 1px solid rgb(199, 199, 199);
+}
+.halfStar{
+  position: relative;
+  color: rgb(168, 168, 168);
+  font-size: 20px;
+}
+.halfStarColor{
+  position: absolute;
+  color: rgb(255, 255, 0);
+  font-size: 20px;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+}
+.load{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+.cond{
+  
+}
